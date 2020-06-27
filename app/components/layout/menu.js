@@ -148,7 +148,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(Menu)
 
 let styles = StyleSheet.create({
     menu: {
-        backgroundColor: '#333',
+        backgroundColor: '#000',
         overflow: 'hidden',
         zIndex: 10,
         display: 'block',
@@ -167,23 +167,23 @@ let styles = StyleSheet.create({
         opacity: 1,
         width: '100%',
         '@media (min-width: 768px)': {
-            width: '40%',
+            width: '27%',
         },
         '@media (min-width: 992px)': {
-            width: '30%',
+            width: '22%',
         },
         '@media (min-width: 1200px)': {
-            width: '25%',
+            width: '20%',
         },
     },
     icon: {
         padding: '0 20px',
         color: '#DADADA',
-        fontSize: '1.6rem',
+        fontSize: '1.2rem',
     },
     list: {
         padding: '10px 0',
-        fontSize: '1.6rem',
+        fontSize: '1.2rem',
         marginBottom: 20,
         marginTop: 0,
     },
@@ -191,12 +191,12 @@ let styles = StyleSheet.create({
         margin: 0,
         listStyle: 'none',
         padding: '10px 0',
-        fontSize: '1.6rem',
+        fontSize: '1.2rem',
     },
     itemLink: {
         color: '#DADADA',
-        fontWeight: 500,
-        fontSize: 'large',
+        fontWeight: 800,
+        fontSize: 'small',
         borderBottom: '0 transparent',
         backgroundColor: 'transparent',
         outline: 0,
@@ -216,16 +216,16 @@ let styles = StyleSheet.create({
         display: 'block',
         border: '1px solid #dededc',
         height: 0,
-        width: '40%',
+        width: '80%',
     },
     subList: {
-        marginLeft: '15px',
+        marginLeft: '60px',
         paddingTop: 0,
         paddingBottom: 0,
         position: 'relative',
         padding: '10px 0',
         marginBottom: 0,
-        fontSize: '1.6rem',
+        fontSize: '1.2rem',
         marginTop: 0,
     },
     subItem: {
@@ -245,7 +245,7 @@ let styles = StyleSheet.create({
         transition: 'opacity ease 750ms,height linear 750ms',
     },
     subItemLink: {
-        fontSize: 'medium',
+        fontSize: 'small',
         position: 'relative',
         color: '#DADADA',
         fontWeight: 500,
