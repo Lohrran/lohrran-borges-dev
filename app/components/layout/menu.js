@@ -155,7 +155,7 @@ let styles = StyleSheet.create({
         top: 0,
         left: 0,
         height: '100%',
-        boxShadow: '#000 2px 2px 10px',
+        //boxShadow: '#000 2px 2px 10px',
         paddingTop: '5rem',
         transition: 'opacity linear 750ms,width linear 750ms',
         width: 0,
@@ -167,13 +167,13 @@ let styles = StyleSheet.create({
         opacity: 1,
         width: '100%',
         '@media (min-width: 768px)': {
-            width: '27%',
+            width: '30%',
         },
         '@media (min-width: 992px)': {
-            width: '22%',
+            width: '24%',
         },
         '@media (min-width: 1200px)': {
-            width: '20%',
+            width: '22%',
         },
     },
     icon: {
