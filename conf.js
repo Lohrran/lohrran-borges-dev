@@ -4,5 +4,5 @@ window.appConf = {
     sendContactMessageUrlId:
         'AKfycbyL4vW1UWs4mskuDjLoLmf1Hjan1rTLEca6i2Hi2H_4CtKUN84d',
     shortname: 'easydrivecms',
-    root: 'react-drive-cms',
+    root: 'lohrran-borges-dev',
 }

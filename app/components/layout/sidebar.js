@@ -39,7 +39,7 @@ class Sidebar extends PureComponent {
                         </a>
                         <a
                             className=${css(styles.button)}
-                            href="https://github.com/misterfresh/react-drive-cms/tree/master"
+                            href="https://github.com/lohrran/lohrran-borges-dev/tree/master"
                             target="_blank"
                         >
                             Source on GitHub
@@ -50,7 +50,7 @@ class Sidebar extends PureComponent {
         `
     }
 }
-
+//Here is the button to delete
 export default Sidebar
 
 let styles = StyleSheet.create({
