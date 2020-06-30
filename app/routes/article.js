@@ -85,7 +85,7 @@ class Article extends Component {
             <div className=${css(blocks.wrapper, styles.page)}>
                 <${Helmet}
                     title=${activeArticle.title}
-                    titleTemplate=${'%s - React Drive CMS'}
+                    titleTemplate=${''}
                     meta=${[
                         { 'char-set': 'utf-8' },
                         { name: 'description', content: activeArticle.title },
@@ -256,7 +256,7 @@ let styles = StyleSheet.create({
             width: '70%',
         },
         '@media (min-width: 1200px)': {
-            width: '75%',
+            width: '80%',
         },
     },
     content: {
@@ -296,13 +296,13 @@ let styles = StyleSheet.create({
         left: '1.5rem',
         zIndex: '15',
         borderRadius: 5,
-        height: '4rem',
-        width: '4rem',
-        background: '#333',
+        height: '3rem',
+        width: '3rem',
+        background: '#000',
         paddingTop: 8,
         cursor: 'pointer',
         borderBottom: '0 transparent',
-        boxShadow: '#948b8b 2px 2px 10px',
+        //boxShadow: '#948b8b 2px 2px 10px',
         color: '#fff',
         display: 'flex',
         flexDirection: 'column',
@@ -310,9 +310,9 @@ let styles = StyleSheet.create({
         outline: 0,
         border: 0,
         ':hover': {
-            color: '#fff',
+            color: '#2d2d2d',
             outline: 0,
-            background: '#999',
+            background: '#2d2d2d',
         },
         ':focus': {
             outline: 0,
@@ -320,10 +320,10 @@ let styles = StyleSheet.create({
     },
     bar: {
         height: '0.5rem',
-        width: '2.8rem',
+        width: '2.0rem',
         display: 'block',
         margin: '0 6px 5px',
-        background: '#fff',
+        background: '#DADADA',
         borderRadius: '0.3rem',
     },
 })

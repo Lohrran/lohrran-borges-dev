@@ -45,6 +45,6 @@ export default class DisqusThread extends Component {
     }
 
     render() {
-        return html`<div id="disqus_thread" />`
+        return html ``//`<div id="disqus_thread" />`
     }
 }

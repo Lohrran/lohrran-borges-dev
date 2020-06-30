@@ -33,12 +33,12 @@ class Home extends PureComponent {
         let { activePanel } = this.state
         return html`
             <${Page}
-                title="Dev"
-                subtitle="Dev Log"
-                description="My personal dev log."
-                sidebarImage=${resolveAsset('/assets/default-sidebar.jpg')}
-                showLinks=${true}
-            >
+                title=""
+                subtitle=""
+                description=""
+                sidebarImage=${resolveAsset('')}
+                showLinks=${false}
+                >
                 <div className=${css(styles.subNav)}>
                     <button
                         className=${css(

@@ -6,35 +6,31 @@ import resolveAsset from '../utils/resolveAsset.js'
 
 let About = () => html`
     <${Page}
-        title="About"
-        subtitle="React Drive CMS Demo"
-        description="An easy way to publish articles directly from Google Drive"
-        sidebarImage=${resolveAsset('/assets/default-about.jpg')}
-        showLinks=${true}
+        title=""
+        subtitle=""
+        description=""
+        sidebarImage=${resolveAsset('')}
+        showLinks=${false}
     >
         <div className=${css(styles.content)}>
             <img
-                src=${resolveAsset('/assets/react_logo.png')}
+                src=${resolveAsset('/assets/profile-1.png')}
                 className=${css(styles.image)}
             />
             <div className=${css(styles.info)}>
-                <h1 className=${css(styles.title)}>React Drive CMS Demo</h1>
+                <h1 className=${css(styles.title)}>Lohrran Borges</h1>
                 <p className=${css(styles.p)}>
-                    A demo site to showcase the use of Google Drive as a Content
-                    Management System. Write articles in Google Docs and publish
-                    them directly from there.
+                    My name is Lohrran, this is my dev log, things I do for learn new things.
                 </p>
                 <p className=${css(styles.p)}>
-                    Google Drive is the backend, only a few static files are
-                    hosted on GitHub Pages, and the content is displayed with
-                    React JS.
+                    You can also go to my github and take a better look at my projects.
                 </p>
             </div>
         </div>
 
         <footer className=${css(styles.footer)}>
             <${Link} to="/contact" className=${css(styles.contact)}>
-                Contact
+                Contact lohrranborges@gmail.com
             <//>
         </footer>
     <//>

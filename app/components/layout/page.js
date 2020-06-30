@@ -56,7 +56,7 @@ class Page extends PureComponent {
             <div className=${css(blocks.wrapper, styles.page)}>
                 <${Helmet}
                     title=${title}
-                    titleTemplate=${'%s - Lohrran Borges'}
+                    titleTemplate=${'Lohrran Borges'}
                     meta=${[
                         { 'char-set': 'utf-8' },
                         { name: 'description', content: title },
@@ -151,15 +151,15 @@ let styles = StyleSheet.create({
         margin: 0,
         width: '100%',
         '@media (min-width: 768px)': {
-            width: '60%',
+            width: '150%',
             display: 'block',
         },
         '@media (min-width: 992px)': {
             display: 'block',
-            width: '70%',
+            width: '100%',
         },
         '@media (min-width: 1200px)': {
-            width: '75%',
+            width: '100%',
             flexDirection: 'row',
             display: 'flex',
             justifyContent: 'flex-end',
@@ -179,7 +179,7 @@ let styles = StyleSheet.create({
             width: '60%',
         },
         '@media (min-width: 1200px)': {
-            width: '60%',
+            width: '98%',
         },
     },
     contentNarrow: {
@@ -192,7 +192,7 @@ let styles = StyleSheet.create({
             width: '100%',
         },
         '@media (min-width: 1200px)': {
-            width: '52%',
+            width: '78%',
         },
     },
     menuBurger: {

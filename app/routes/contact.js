@@ -104,10 +104,10 @@ class Contact extends Component {
 
         return html`
             <${Page}
-                title="Contact"
-                subtitle="Get in touch with us"
+                title=""
+                subtitle=""
                 description=""
-                sidebarImage=${resolveAsset('/assets/default-contact.jpg')}
+                sidebarImage=${resolveAsset('')}
             >
                 <h3 className=${css(styles.title)}>Send me an email</h3>
                 <form className=${css(styles.form)}>
@@ -270,7 +270,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(Contact)
 let styles = StyleSheet.create({
     title: {
         fontSize: '2.6rem',
-        marginTop: '20px',
+        marginTop: '10px',
         fontFamily: 'inherit',
         fontWeight: 500,
         lineHeight: '1.1',
