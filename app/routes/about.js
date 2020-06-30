@@ -13,17 +13,14 @@ let About = () => html`
         showLinks=${false}
     >
         <div className=${css(styles.content)}>
-            <img
-                src=${resolveAsset('/assets/profile-1.png')}
-                className=${css(styles.image)}
-            />
             <div className=${css(styles.info)}>
                 <h1 className=${css(styles.title)}>Lohrran Borges</h1>
                 <p className=${css(styles.p)}>
                     My name is Lohrran, this is my dev log, things I do for learn new things.
+                    You can also go to my github and take a better look at my projects.
                 </p>
                 <p className=${css(styles.p)}>
-                    You can also go to my github and take a better look at my projects.
+                    
                 </p>
             </div>
         </div>
