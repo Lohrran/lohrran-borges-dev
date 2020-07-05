@@ -20,7 +20,7 @@ let About = () => html`
                     You can also go to my github and take a better look at my projects.
                 </p>
                 <p className=${css(styles.p)}>
-                    
+
                 </p>
             </div>
         </div>
