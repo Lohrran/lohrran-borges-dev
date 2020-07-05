@@ -79,14 +79,7 @@ class Page extends PureComponent {
                         menuVisible && styles.mainNarrow
                     )}
                 >
-                    <${Sidebar}
-                        title=${title}
-                        subtitle=${subtitle}
-                        description=${description}
-                        sidebarImage=${sidebarImage}
-                        menuVisible=${menuVisible}
-                        showLinks=${showLinks}
-                    />
+                    
                     <section
                         className=${css(
                             styles.content,

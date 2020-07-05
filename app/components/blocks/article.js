@@ -58,15 +58,15 @@ let Article = ({ article, category }) => html`
             border-bottom: 1px solid #b6b6b6;
         }
         @media (min-width: 992px) {
-            article .title { 
+            article .title {
                 font-size: 3.2rem;
             }
-            article p { 
+            article p {
                 font-size: 1.8rem,
             }
         }
     </style>
-    
+
     <article>
         <h2>
             <${Link}
@@ -102,4 +102,3 @@ let Article = ({ article, category }) => html`
 `
 
 export default Article
-
