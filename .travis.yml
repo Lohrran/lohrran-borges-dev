@@ -6,10 +6,10 @@ before_script:
   - npm install
 script:
   - npm test
-  - docker build -t lohrran/blog-dev .
+  - docker build -t blog-dev .
 after_success:
   - docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-  - docker tag back $DOCKER_USER/blog-dev:$TRAVIS_BUILD_NUMBER
+  - docker tag blog-dev $DOCKER_USER/blog-dev:$TRAVIS_BUILD_NUMBER
   - docker push $DOCKER_USER/blog-dev:$TRAVIS_BUILD_NUMBER
-  - docker tag back $DOCKER_USER/v:latest
+  - docker tag blog-dev $DOCKER_USER/blog-dev:latest
   - docker push $DOCKER_USER/blog-dev:latest
