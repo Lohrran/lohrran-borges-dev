@@ -15,9 +15,15 @@ let About = () => html`
         <div className=${css(styles.content)}>
             <div className=${css(styles.info)}>
                 <h1 className=${css(styles.title)}>Lohrran Borges</h1>
+                <img
+                  src=${resolveAsset('/assets/profile-2.jpeg')}
+                  className=${css(styles.image)}
+                />
                 <p className=${css(styles.p)}>
-                    My name is Lohrran, this is my dev log, things I do for learn new things.
-                    You can also go to my github and take a better look at my projects.
+                    I'm passionate brazillian developer with more than 3 years of experience in the field.
+                    Currently I'm living in Lima, Peru where I work as a RPA developer (Blue Prism / Automation Anywhere) for over 2 years.
+                    Although I enjoy to work in my current field, my true passion is to develop games... So waiting my oportunitie arrive
+                    to work in a game company, I will continue study the subject and create more amazing games.
                 </p>
                 <p className=${css(styles.p)}>
 
@@ -27,7 +33,7 @@ let About = () => html`
 
         <footer className=${css(styles.footer)}>
             <${Link} to="/contact" className=${css(styles.contact)}>
-                Contact lohrranborges@gmail.com
+                Contact me!
             <//>
         </footer>
     <//>
@@ -38,8 +44,8 @@ export default About
 let styles = StyleSheet.create({
     content: { display: 'block' },
     image: {
-        borderRadius: '50%',
-        width: '150px',
+        //borderRadius: '150%',
+        width: '256px',
         border: 0,
         maxWidth: '100%',
         verticalAlign: 'middle',
