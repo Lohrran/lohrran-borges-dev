@@ -23,7 +23,7 @@ let About = () => html`
                     I'm passionate brazillian developer with more than 3 years of experience in the field.
                     Currently I'm living in Lima, Peru where I work as a RPA developer (Blue Prism / Automation Anywhere) for over 2 years.
                     Although I enjoy to work in my current field, my true passion is to develop games... So waiting my oportunitie arrive
-                    to work in a game company, I will continue study the subject and create more amazing games.
+                    to work in a game company, I will continue study the subject and create more amazing games!
                 </p>
                 <p className=${css(styles.p)}>
 
